@@ -14,6 +14,8 @@ class StudentsController < ApplicationController
 
   def create
     @student = Student.new
+    @student = Student.first_name
+    @student = Student.last_name
     @student.save
   end
 
