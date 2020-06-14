@@ -9,11 +9,12 @@ class StudentsController < ApplicationController
   end
 
   def new
-    @student = Student.new
-    @student.save
+    
   end
 
   def create
+    @student = Student.new
+    @student.save
   end
 
 end
